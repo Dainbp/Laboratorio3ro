@@ -3,6 +3,10 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
@@ -17,11 +21,11 @@
             android:layout_marginBottom="8dp">
         <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="315dp">
+                android:layout_height="246dp">
 
             <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="247dp" tools:srcCompat="@tools:sample/backgrounds/scenic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="225dp" tools:srcCompat="@tools:sample/backgrounds/scenic[0]"
                     android:id="@+id/imageView"/>
         </FrameLayout>
         <LinearLayout
