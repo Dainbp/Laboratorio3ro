@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JuegoLab</string>
+    <string name="text_accounts">Cuentas</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_email">Correo</string>
+    <string name="text_music">Música</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Confirmar Contraseña</string>
+    <string name="text_login">Iniciar seción</string>
+    <string name="text_register">Registrar</string>
+    <string name="error_message_name">Ingrese Nombre Completo</string>
+    <string name="error_message_email">Ingrese un correo valido</string>
+    <string name="error_message_age">El campo de edad es obligatorio</string>
+    <string name="error_message_password">Ingrese la contraseña</string>
+    <string name="success_message">El registro ha sido exitoso</string>
+    <string name="text_not_member">No tiene cuenta? Registrese</string>
+    <string name="text_already_member">Ya es usuario? Inicie seción</string>
+    <string name="error_email_exists">El correo ya esta registrado con otro usuario</string>
+    <string name="error_password_match">Las contraseñas no coinciden</string>
+    <string name="error_valid_email_password">El correo o la contraseña no son validos</string>
+    <string name="action_settings">Configuraciónes</string>
+    <string name="text_hello">Hola</string>
+    <string name="text_menu">Menú</string>
+    <string name="text_off">Desactivado</string>
+    <string name="text_on">Activado</string>
+</resources>
