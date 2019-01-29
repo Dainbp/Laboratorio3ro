@@ -23,4 +23,5 @@
     <string name="text_menu">Menú</string>
     <string name="text_off">Desactivado</string>
     <string name="text_on">Activado</string>
+    <string name="text_ranking">Tabla de Puntajes</string>
 </resources>

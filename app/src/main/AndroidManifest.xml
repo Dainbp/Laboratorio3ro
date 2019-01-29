@@ -16,6 +16,25 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity"
+                  android:label="@string/text_login"
+        >
+
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".RankingActivity"
+                  android:label="@string/text_ranking"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.RANKING"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
