@@ -2,6 +2,7 @@
     <string name="app_name">JuegoLab</string>
     <string name="text_accounts">Cuentas</string>
     <string name="hint_name">Nombre</string>
+    <string name="hint_user_name">Nombre de Usuario</string>
     <string name="hint_email">Correo</string>
     <string name="text_music">Música</string>
     <string name="hint_password">Contraseña</string>

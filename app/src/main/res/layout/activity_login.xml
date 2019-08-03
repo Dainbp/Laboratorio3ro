@@ -32,6 +32,8 @@
             android:layout_height="181dp"
             android:orientation="vertical">
 
+
+
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -67,13 +69,14 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonLogin2"
+                android:id="@+id/button_Login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@color/colorBotton"
                 android:shadowColor="@color/colorAccent"
-                android:text="@string/text_login" />
+                android:text="@string/text_login"
+                android:clickable="true"/>
         </LinearLayout>
 
         <LinearLayout
@@ -85,7 +88,6 @@
                 android:id="@+id/buttonRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:autoText="true"
                 android:background="@color/colorBackground"
                 android:clickable="true"
                 android:cursorVisible="false"

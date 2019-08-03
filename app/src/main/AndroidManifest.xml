@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".RegisterActivity"
+            android:label="@string/text_register"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.REGISTER"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
         <activity android:name=".LoginActivity"
                   android:label="@string/text_login"
         >
@@ -26,6 +37,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ListUserActivity"
+            android:screenOrientation="portrait" />
+
         <activity android:name=".RankingActivity"
                   android:label="@string/text_ranking"
         >

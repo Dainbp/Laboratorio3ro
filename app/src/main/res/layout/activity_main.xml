@@ -35,7 +35,7 @@
             <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" app:srcCompat="@android:drawable/ic_menu_manage"
-                    android:id="@+id/imageButton"/>
+                    android:id="@+id/buttonConfig" android:clickable="true"/>
         </LinearLayout>
         <LinearLayout
                 android:orientation="vertical"
@@ -43,7 +43,7 @@
                 tools:layout_editor_absoluteX="0dp"
                 android:animationCache="true" android:layout_width="match_parent">
             <Button
-                    android:text="Loging"
+                    android:text="Iniciar sesion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/buttonLogin" android:clickable="true"/>
         </LinearLayout>
@@ -55,6 +55,15 @@
                     android:text="Ranking"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/buttonRanking"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="279dp">
+            <Button
+                android:text="Listar Usuarios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/buttonList"/>
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
